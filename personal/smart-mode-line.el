@@ -1,0 +1,5 @@
+(prelude-require-packages '(smart-mode-line))
+(setq sml/theme 'dark)
+;;(sml/apply-theme 'dark)
+(sml/setup)
+(customize-set-variable sml/use-projectile-p (quote before-prefixes))
